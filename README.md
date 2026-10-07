@@ -1,24 +1,6 @@
-# Oficina Tecnologia & Extensão — PWA
-
-## Como publicar no GitHub Pages
-1. Envie todo o conteúdo desta pasta para o repositório.
-2. Em Settings > Pages, publique a branch principal pela raiz.
-3. Abra o endereço do GitHub Pages uma vez com internet para o service worker armazenar os arquivos.
-4. Depois, o conteúdo principal funciona offline.
-
-## Conteúdo
-- Aula guiada de 2 horas
-- Datas: 8 e 15 de novembro de 2026
-- Ferramentas de vídeo: Canva, CapCut e PixVerse
-- Sorteio de tema para simulação
-- Exemplos de brincadeiras
-- Integração físico + digital
-- Construtor de prompt 3D
-- Ficha de protótipo imprimível / salvável como PDF
-- Fotografias da preparação em sala
-
-- Tema adicional: Tabagismo
-- Simulador de atividade gerada a partir de 6 respostas de múltipla escolha
-
-- Simulação com Caça Científica por QR Codes, pontuação e 3–6 estações
-- O gerador cria a sequência explicação → pista → QR → desafio → feedback → nova pista
+# MUDI — Extensão Medicina 2026
+PWA completo para a simulação de tecnologia e divulgação científica.
+Temas: Anatomia, Segundo Cérebro, Plantas Medicinais, Química, Antitabagismo e Digital/Tecnologia e Divulgação.
+Inclui cards coloridos, múltipla escolha, atividade gerada automaticamente, QR Codes, pistas, pontuação, integração físico-digital, arte/vídeo e ficha final.
+Evento aberto à comunidade. Famílias convidadas. Não haverá inscrição.
+Publique todos os arquivos na raiz do repositório GitHub Pages.

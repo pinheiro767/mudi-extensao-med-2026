@@ -37,10 +37,10 @@ footer{padding:40px 0 70px;color:var(--muted);text-align:center}
 .theme-panel .card h3{font-size:1.5rem}
 .theme-panel[data-panel="anatomia"] .card{background:linear-gradient(145deg,#0a75dd,#173e91)}
 .theme-panel[data-panel="cerebro"] .card{background:linear-gradient(145deg,#ec328c,#76265f)}
-.theme-panel[data-panel="anfiteatro"] .card{background:linear-gradient(145deg,#783dd4,#3d247b)}
+
 .theme-panel[data-panel="plantas"] .card{background:linear-gradient(145deg,#29a84a,#176333)}
 .theme-panel[data-panel="quimica"] .card{background:linear-gradient(145deg,#f09b18,#a75212)}
-.theme-panel[data-panel="tabagismo"] .card{background:linear-gradient(145deg,#db3c37,#7c2222)}
+.theme-panel[data-panel="antitabagismo"] .card{background:linear-gradient(145deg,#db3c37,#7c2222)}
 .theme-panel[data-panel="digital"] .card{background:linear-gradient(145deg,#168fd8,#20549d)}
 #decisor .lab{background:linear-gradient(135deg,#33206c,#0c5a92);border:2px solid #ffffff30;box-shadow:0 18px 45px #0005}
 #qr .step:nth-child(1){background:linear-gradient(145deg,#e43c8d,#6f255b)}
@@ -50,6 +50,7 @@ footer{padding:40px 0 70px;color:var(--muted);text-align:center}
 #qr .step:nth-child(5){background:linear-gradient(145deg,#7b48d4,#472779)}
 @media(max-width:560px){.posterHero{border-radius:18px}.posterActions{padding:12px}.posterActions .btn{min-width:100%}}
 
+.temas6{grid-template-columns:repeat(3,minmax(0,1fr))}.tema6{border:2px solid #ffffff38;box-shadow:0 14px 28px #0004;min-height:160px}.tema6 h3{font-size:1.35rem}.t1{background:linear-gradient(145deg,#0875df,#153d8f)}.t2{background:linear-gradient(145deg,#e73491,#74255f)}.t3{background:linear-gradient(145deg,#28a84d,#176437)}.t4{background:linear-gradient(145deg,#f0a01c,#a85a11)}.t5{background:linear-gradient(145deg,#dc3c39,#7d2222)}.t6{background:linear-gradient(145deg,#743ed0,#3c267e)}@media(max-width:780px){.temas6{grid-template-columns:1fr 1fr}}@media(max-width:520px){.temas6{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -65,7 +66,7 @@ footer{padding:40px 0 70px;color:var(--muted);text-align:center}
 </div>
 
 <nav><div class="wrap">
-<a href="#evento">Evento</a><a href="#missao">Missão</a><a href="#roteiro">2 horas</a><a href="#divulgacao">Divulgação</a><a href="#video">Vídeo</a><a href="#simulador">Temas</a><a href="#decisor">Monte a atividade</a><a href="#qr">QR + pontos</a><a href="#fisicodigital">Físico + digital</a><a href="#ficha">Ficha final</a>
+<a href="#evento">Evento</a><a href="#missao">Missão</a><a href="#roteiro">2 horas</a><a href="#divulgacao">Divulgação</a><a href="#video">Vídeo</a><a href="#temasoficiais">6 temas</a><a href="#simulador">Simular</a><a href="#decisor">Monte a atividade</a><a href="#qr">QR + pontos</a><a href="#fisicodigital">Físico + digital</a><a href="#ficha">Ficha final</a>
 </div></nav>
 
 <main class="wrap">
@@ -130,6 +131,17 @@ footer{padding:40px 0 70px;color:var(--muted);text-align:center}
   </div>
 </section>
 
+<section id="temasoficiais">
+<div class="eyebrow">Temas da atividade</div><h2 class="section-title">6 caminhos para criar experiências científicas</h2>
+<p class="lead">Na simulação de hoje, os estudantes experimentam como transformar um tema científico em uma experiência física, digital, lúdica e acessível para crianças e famílias.</p>
+<div class="grid temas6">
+<article class="card tema6 t1"><div class="pad"><h3>🫀 Anatomia</h3><p>Estruturas, localização e função por investigação e pistas.</p></div></article>
+<article class="card tema6 t2"><div class="pad"><h3>🧠 Segundo Cérebro</h3><p>Comunicação cérebro–intestino por desafios e descobertas.</p></div></article>
+<article class="card tema6 t3"><div class="pad"><h3>🌿 Plantas Medicinais</h3><p>Observação, investigação, evidência e uso seguro.</p></div></article>
+<article class="card tema6 t4"><div class="pad"><h3>🧪 Química</h3><p>Moléculas, substâncias e processos do corpo de forma concreta.</p></div></article>
+<article class="card tema6 t5"><div class="pad"><h3>🚭 Antitabagismo</h3><p>Prevenção, sistema respiratório e escolhas de proteção à saúde.</p></div></article>
+<article class="card tema6 t6"><div class="pad"><h3>📱 Digital / Tecnologia e Divulgação</h3><p>Artes, vídeos, QR Codes e comunicação científica acessível.</p></div></article>
+</div></section>
 <section id="simulador">
   <div class="eyebrow">Missão 3</div><h2 class="section-title">Laboratório de experiências</h2>
   <p class="lead">Escolha ou sorteie um tema <b>apenas para treinar hoje</b>. Depois do sorteio oficial, a equipe deverá conhecer o ambiente real antes de decidir a experiência definitiva.</p>
@@ -137,10 +149,9 @@ footer{padding:40px 0 70px;color:var(--muted);text-align:center}
   <div class="tabs" id="tabs">
     <button class="tab active" data-theme="anatomia">Anatomia</button>
     <button class="tab" data-theme="cerebro">Segundo Cérebro</button>
-    <button class="tab" data-theme="anfiteatro">Anfiteatro</button>
     <button class="tab" data-theme="plantas">Plantas Medicinais</button>
     <button class="tab" data-theme="quimica">Química</button>
-    <button class="tab" data-theme="tabagismo">Tabagismo</button>
+    <button class="tab" data-theme="antitabagismo">Antiantitabagismo</button>
     <button class="tab" data-theme="digital">Digital</button>
   </div>
 
@@ -152,10 +163,6 @@ footer{padding:40px 0 70px;color:var(--muted);text-align:center}
     <article class="card wide"><img src="assets/segundo-cerebro.png" alt="Cérebro e intestino 3D conectados"></article>
     <article class="card wide"><div class="pad"><h3>Missão Cérebro–Intestino</h3><p><b>Brincadeira:</b> seguir pistas entre cérebro e intestino, associar sinais e depois localizar as estruturas em modelos físicos.</p><p><b>Gancho:</b> “O intestino conversa com o cérebro?”</p></div></article>
   </div>
-  <div class="grid theme-panel" data-panel="anfiteatro">
-    <article class="card wide"><img src="assets/anfiteatro.png" alt="Game show infantil de anatomia"></article>
-    <article class="card wide"><div class="pad"><h3>Game Show do Corpo</h3><p><b>Brincadeira:</b> plateia responde A/B/C, levanta placas ou aperta botões; o estudante explica o porquê após cada rodada.</p><p><b>Regra:</b> o quiz abre conversa — não substitui a explicação.</p></div></article>
-  </div>
   <div class="grid theme-panel" data-panel="plantas">
     <article class="card wide"><img src="assets/plantas.png" alt="Museu botânico infantil 3D"></article>
     <article class="card wide"><div class="pad"><h3>Detetive das Plantas</h3><p><b>Brincadeira:</b> observar folhas/plantas, procurar pistas com lupa e classificar afirmações em “investigar” e “já sabemos”.</p><p><b>Cuidado:</b> “natural” não significa automaticamente “seguro”.</p></div></article>
@@ -165,9 +172,9 @@ footer{padding:40px 0 70px;color:var(--muted);text-align:center}
     <article class="card wide"><div class="pad"><h3>Construtores de Moléculas</h3><p><b>Brincadeira:</b> montar modelos com peças coloridas, comparar formas e usar o digital para animar o caminho de uma substância.</p><p><b>Conexão:</b> objeto físico → modelo → explicação → animação.</p></div></article>
   </div>
 
-  <div class="grid theme-panel" data-panel="tabagismo">
-    <article class="card wide"><img src="assets/anatomia.png" alt="Ambiente educativo para simulação sobre tabagismo"></article>
-    <article class="card wide"><div class="pad"><h3>Tabagismo — Missão Respira Livre</h3>
+  <div class="grid theme-panel" data-panel="antitabagismo">
+    <article class="card wide"><img src="assets/anatomia.png" alt="Ambiente educativo para simulação de prevenção ao tabagismo"></article>
+    <article class="card wide"><div class="pad"><h3>Antiantitabagismo — Missão Respira Livre</h3>
       <p><b>Simulação:</b> criar uma atividade preventiva e adequada à faixa etária, sem culpabilização. A criança pode investigar o sistema respiratório, comparar situações e descobrir como proteger pulmões e vias respiratórias.</p>
       <p><b>Integração:</b> modelo/peça física + desafio escolhido pela criança + explicação curta do estudante + feedback digital.</p>
     </div></article>
@@ -187,8 +194,8 @@ footer{padding:40px 0 70px;color:var(--muted);text-align:center}
     <div class="formgrid">
       <label>1. Tema para simular
         <select id="dTema">
-          <option>Anatomia</option><option>Segundo Cérebro</option><option>Anfiteatro</option>
-          <option>Plantas Medicinais</option><option>Química</option><option>Tabagismo</option><option>Digital</option>
+          <option>Anatomia</option><option>Segundo Cérebro</option>
+          <option>Plantas Medicinais</option><option>Química</option><option>Antiantitabagismo</option><option>Digital</option>
         </select>
       </label>
       <label>2. Como a criança deve participar?
@@ -276,7 +283,7 @@ footer{padding:40px 0 70px;color:var(--muted);text-align:center}
   <p class="lead">Preencha o “raio-X” da estação. Se você ainda não conhece o ambiente do MUDI, escreva <b>“a confirmar no MUDI”</b>. Isso é melhor do que inventar um recurso físico que talvez não exista.</p>
   <div class="lab">
     <div class="formgrid">
-      <label>Tema da simulação<select id="tema"><option>Anatomia</option><option>Segundo Cérebro</option><option>Anfiteatro</option><option>Plantas Medicinais</option><option>Química</option><option>Tabagismo</option><option>Digital</option></select></label>
+      <label>Tema da simulação<select id="tema"><option>Anatomia</option><option>Segundo Cérebro</option><option>Plantas Medicinais</option><option>Química</option><option>Antiantitabagismo</option><option>Digital</option></select></label>
       <label>Substância/assunto<input id="assunto" placeholder="Ex.: serotonina, melatonina, colágeno..."></label>
       <label>O que a criança verá fisicamente?<textarea id="fisico" placeholder="Peça, modelo, planta, experimento... ou: a confirmar no MUDI"></textarea></label>
       <label>O que a criança fará?<textarea id="acao" placeholder="Procurar, montar, comparar, responder, observar..."></textarea></label>
@@ -290,7 +297,7 @@ footer{padding:40px 0 70px;color:var(--muted);text-align:center}
   <div class="eyebrow">Construtor</div><h2 class="section-title">Monte um prompt de arte 3D</h2>
   <div class="lab">
     <div class="formgrid">
-      <label>Tema<select id="pTema"><option>Anatomia</option><option>Segundo Cérebro</option><option>Anfiteatro</option><option>Plantas Medicinais</option><option>Química</option><option>Tabagismo</option><option>Digital</option></select></label>
+      <label>Tema<select id="pTema"><option>Anatomia</option><option>Segundo Cérebro</option><option>Plantas Medicinais</option><option>Química</option><option>Antiantitabagismo</option><option>Digital</option></select></label>
       <label>Público<select id="pPublico"><option>crianças de 6 a 10 anos</option><option>crianças e famílias</option><option>adolescentes</option><option>comunidade em geral</option></select></label>
       <label>Atividade<input id="pAtividade" placeholder="Ex.: caça às pistas, game show, laboratório..."></label>
       <label>Formato<select id="pFormato"><option>16:9 para vídeo/tela</option><option>9:16 para story/reel</option><option>1:1 para post</option></select></label>
@@ -332,17 +339,16 @@ if('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js');
 
 $$('.tab').forEach(b=>b.addEventListener('click',()=>activate(b.dataset.theme)));
 function activate(t){$$('.tab').forEach(x=>x.classList.toggle('active',x.dataset.theme===t));$$('.theme-panel').forEach(x=>x.classList.toggle('active',x.dataset.panel===t))}
-const themes=[['anatomia','Anatomia'],['cerebro','Segundo Cérebro'],['anfiteatro','Anfiteatro'],['plantas','Plantas Medicinais'],['quimica','Química'],['tabagismo','Tabagismo'],['digital','Digital']];
+const themes=[['anatomia','Anatomia'],['cerebro','Segundo Cérebro'],['plantas','Plantas Medicinais'],['quimica','Química'],['antitabagismo','Antiantitabagismo'],['digital','Digital']];
 $('#sortear').addEventListener('click',()=>{const t=themes[Math.floor(Math.random()*themes.length)];$('#sorteio').textContent='Tema: '+t[1];activate(t[0]);$('#tema').value=t[1]});
 
 
 const themeIdeas={
  'Anatomia':{title:'Detetives do Corpo Humano',goal:'localizar estruturas e relacionar forma e função',hook:'Onde está essa estrutura e o que ela ajuda o corpo a fazer?'},
  'Segundo Cérebro':{title:'A Rota Cérebro–Intestino',goal:'perceber que cérebro e intestino mantêm comunicação de mão dupla',hook:'Como uma mensagem pode viajar entre intestino e cérebro?'},
- 'Anfiteatro':{title:'Show da Ciência',goal:'transformar perguntas em conversa científica com a plateia',hook:'Qual hipótese você escolheria e por quê?'},
  'Plantas Medicinais':{title:'Detetives das Plantas',goal:'observar características e diferenciar tradição, hipótese e evidência',hook:'Natural significa sempre seguro? Vamos investigar.'},
  'Química':{title:'Construtores de Moléculas',goal:'relacionar modelos de moléculas, substâncias e processos do corpo',hook:'Como uma molécula pode ter efeitos diferentes no organismo?'},
- 'Tabagismo':{title:'Missão Respira Livre',goal:'compreender de modo preventivo como o tabagismo afeta o sistema respiratório e escolhas de saúde',hook:'O que acontece com o caminho do ar quando substâncias da fumaça entram no sistema respiratório?'},
+ 'Antiantitabagismo':{title:'Missão Respira Livre',goal:'compreender de modo preventivo como o tabaco e sua fumaça podem afetar o sistema respiratório e escolhas de saúde',hook:'O que acontece com o caminho do ar quando substâncias da fumaça entram no sistema respiratório?'},
  'Digital':{title:'Agência Mirim de Ciência',goal:'transformar informação científica em mensagem clara, visual e acessível',hook:'Como explicar ciência sem perder a precisão?'}
 };
 const actionText={
@@ -388,10 +394,9 @@ function qrRoute(tema,n){
  const hooks={
   'Anatomia':['localizar uma estrutura','associar estrutura e função','comparar dois modelos','resolver uma pista anatômica','explicar a descoberta'],
   'Segundo Cérebro':['encontrar o intestino','encontrar o cérebro','descobrir uma forma de comunicação entre os dois','resolver uma pista sobre o sistema nervoso entérico','explicar a conexão cérebro–intestino'],
-  'Anfiteatro':['responder uma hipótese','consultar a plateia','observar uma demonstração','defender uma escolha','explicar o que mudou de ideia'],
   'Plantas Medicinais':['observar uma planta','comparar características','separar mito de pergunta científica','investigar uma evidência','explicar por que natural não significa automaticamente seguro'],
   'Química':['observar um modelo molecular','montar uma associação','seguir o caminho de uma substância','resolver uma pista sobre moléculas','explicar a descoberta'],
-  'Tabagismo':['localizar vias respiratórias','seguir o caminho do ar','identificar estruturas pulmonares','resolver um desafio preventivo sobre fumaça e sistema respiratório','explicar uma forma de proteger a saúde respiratória'],
+  'Antiantitabagismo':['localizar vias respiratórias','seguir o caminho do ar','identificar estruturas pulmonares','resolver um desafio preventivo sobre fumaça e sistema respiratório','explicar uma forma de proteger a saúde respiratória'],
   'Digital':['identificar o público','escolher uma mensagem','avaliar uma imagem','revisar acessibilidade','criar uma chamada científica clara']
  };
  const arr=hooks[tema]||hooks['Anatomia'], lines=[];

@@ -1,4 +1,4 @@
-const CACHE='mudi-visual-v5';
+const CACHE='mudi-extensao-med-2026-final';
 const ASSETS=['./','./index.html','./manifest.webmanifest',
 './assets/plantas.png','./assets/quimica.png','./assets/segundo-cerebro.png',
 './assets/anfiteatro.png','./assets/eixo-intestino-cerebro.png','./assets/digital.png',
