@@ -1,9 +1,1 @@
-{
-  "name": "MUDI — Extensão Medicina 2026",
-  "short_name": "MUDI 2026",
-  "start_url": "./",
-  "display": "standalone",
-  "background_color": "#07111f",
-  "theme_color": "#101827",
-  "icons": []
-}
+{"name":"MUDI • Tecnologia & Divulgação Científica","short_name":"MUDI 2026","start_url":"./","display":"standalone","background_color":"#ffffff","theme_color":"#0b2638","icons":[{"src":"assets/anatomia.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}]}
